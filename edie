@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kari Marken - edie</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FAF7F5;
+            color: #333;
+        }
+        header {
+            background-color: #F2EEE8;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-family: 'Reckless', sans-serif;
+            font-size: 2.5em;
+            color: #7E906A;
+        }
+        header p {
+            font-family: 'Reckless', sans-serif;
+            font-size: 1.2em;
+            color: #E2ACAF;
+        }
+        nav {
+            background-color: #7E906A;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #FAF7F5;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        section h2 {
+            color: #83AEB9;
+            font-family: 'Helvetica Neue', sans-serif;
+            font-size: 2em;
+        }
+        footer {
+            background-color: #F2EEE8;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+        .testimonial {
+            background-color: #F4DC82;
+            padding: 15px;
+            border-left: 5px solid #7E906A;
+            margin: 15px 0;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #7E906A;
+        }
+        .contact-form button {
+            padding: 10px;
+            font-size: 1.1em;
+            background-color: #7E906A;
+            color: #FAF7F5;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>edie</h1>
+        <p>Let’s teach</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#consulting">Consulting Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Make Learning Happen</h2>
+            <p>How we lead a group affects how learning happens. We help you build learning & development strategies with a focus on great teaching.</p>
+            <p>Who is leading your company’s training & development sessions? Are you confident they have the skills & expertise they require to facilitate and lead a group to learn together?</p>
+            <h3>Services</h3>
+            <p><strong>Consulting:</strong> We’ll help you bring learning and team development to life with a focus on facilitation and teaching excellence. <a href="#consulting">Learn More</a></p>
+            <p><strong>Classes:</strong> Invite us to work with your team to deliver a custom-designed ‘Make Learning Happen’ course. <a href="#consulting">Learn More</a></p>
+        </section>
+        <section id="about">
+            <h2>About edie</h2>
+            <p>Welcome! I’m Kari. With edie, I share teaching tools and expert teacher tips to industry, non-profit, and business leaders in an effort to enhance facilitation and group leadership skills everywhere. In the business world, there’s a lot of buzz about learning, growth, collaboration, coaching, facilitation, and design, but these conversations rarely get linked explicitly to teaching. I’d like to spark a practical conversation about teaching and how great teaching tools can catalyze growth everywhere, not just in schools.</p>
+            <p>I love teaching—so much so that I earned a PhD in the study of teaching. The name edie is a word-nerd riff on “education,” and a reference to my goddaughter, Edie Ambrose, whose clever, playful, risk-taking, and vibrant hold on life inspires the spirit of the brand.</p>
+            <p>I’ve worked extensively with organizations as an Educational Designer, Consultant, and Teaching & Learning Strategist. With edie, I distill lessons learned over a 20-year career. I’m a Lecturer at UBC’s Sauder School of Business, teaching Creativity and Communication courses across Executive Education, undergraduate, and graduate-level programs.</p>
+            <p>With edie, I’m excited to connect the great teachers with the great leaders in my network, a teaching/learning-themed inter-professional matchmaking service! I will draw on my network to make sure my clients work with consultants offering the skills they need.</p>
+            <div class="testimonial">
+                <p>“edie’s founder, Dr. Kari Marken, is a maverick of learning design, combining audacious curiosity with insightful strategy. Her approach is rare in this industry, and her work with our company significantly shaped the learning design and curriculum for a marginalized population.”</p>
+                <p>- Larissa Maxwell</p>
+            </div>
+        </section>
+        <section id="consulting">
+            <h2>Consulting Services</h2>
+            <p>You’re the expert in your content. At edie, you connect to teaching experts and together we bring your vision for learning to life.</p>
+            <p>Do you have a learning & development strategy to enact? A team-training to design? A company retreat to plan? Or an important workshop to facilitate?</p>
+            <p>LET'S CONNECT</p>
+            <div class="testimonial">
+                <p>“I contacted Kari when I began building a professional certification program. During this preliminary phase, the program had yet to take shape and it was unclear on how to best assess our student's learning in the online space. Kari's unique qualifications allowed her to clearly identify potential obstacles, while offering strategies to productively address them.”</p>
+                <p>- Carley Mendes, Founder & Director, Oh Baby School of Holistic Nutrition</p>
+            </div>
+            <div class="testimonial">
+                <p>“Kari opened doors everyone else told me were closed. She masterfully captured the details I was lost in and synthesized them into a workable strategy. Usually when people try to simplify for me like this, essential nuance is lost. Not with Kari. She kept up with how fast I talked and thought, and left me knowing exactly what I needed to do next, what was possible and with how much work, and what was a dream and I should move on from. Her gentle, charming disposition belies her incisive, strategic vision. She will be an asset to your business.”</p>
+                <p>- Drew Thompson, Founder, Organized Minds</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Our work takes place on the stolen, unceded and traditional lands and waters of the sḵwx̱wú7mesh (Squamish), sel̓íl̓witulh (Tsleil-Waututh), and xʷməθkʷəy̓əm (Musqueam) nations. Join us in taking action now by donating to the Indigenous Residential School Survivors Society.</p>
+        <p>&copy; 2024 Kari Marken. All rights reserved.</p>
+    </footer>
+</body>
+</html>
